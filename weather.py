@@ -7,10 +7,10 @@ filename = "weather.dat"
 #     content = fn.readlines()
 
 datContent = [i.strip().split() for i in open("weather.dat").readlines()]
-df = pd.DataFrame(datContent)
+df = pd.DataFrame(datContent=int())
 
 # Calulate the difference between temperatures
-# df['diff'] = df.ix[:,1] - df[:,2]
+# df['diff'] = int(df.ix[:,1]) - int(df.ix[:,2])
 
 
 # np.diff(axis=1)
