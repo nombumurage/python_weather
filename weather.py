@@ -12,6 +12,6 @@ df = pd.DataFrame(content)
 # df['diff'] = df['MxT']- df['Mnt']
 
 
-np.diff(df.values, axis=1)
+# np.diff(df.values, axis=1)
 
-print(df['MxT'])
+print(df)
