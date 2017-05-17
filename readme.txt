@@ -11,7 +11,7 @@ Pseudo code
 8. Get the highest temperature spread using max() method and print it.
 
 #Assumptions
-The script runs true for the specific dataset. Any changes in the dataset might affect the functioning of the script
+1.The script runs true for the specific dataset. Any changes in the dataset might affect the functioning of the script.
 
 #To Run the Program
 1. Ensure python is installed on the machine. Version used for this script is 2.7.12
